@@ -1,0 +1,90 @@
+{
+    "Vehicles": [
+        {
+            "Name": "Vehicle 1",
+            "Capacity of a battery": 21,
+            "Charging efficiency": 0.9,
+            "Discharging efficiency": 0.9,
+            "Maximum charging power": 5,
+            "Maximum discharging power": 5,
+            "Maximum SOC": 0.9,
+            "Minimum SOC": 0.1,
+            "Job plan": [
+                {
+                    "Type of task": "Charging",
+                    "Start": "2022-01-02 02:00:00",
+                    "Duration": {
+                        "hours": 5,
+                        "minutes": 0,
+                        "seconds": 0
+                    },
+                    "Initial SOC": 0.3,
+                    "Final SOC": 0.9,
+                    "Location": "Charger 1"
+                },
+                {
+                    "Type of task": "Operation",
+                    "Start": "2022-01-02 07:00:00",
+                    "Duration": {
+                        "hours": 12,
+                        "minutes": 0,
+                        "seconds": 0
+                    },
+                    "Initial SOC": 0.9,
+                    "Final SOC": 0.1,
+                    "Location": "Port"
+                },
+                {
+                    "Type of task": "Charging",
+                    "Start": "2022-01-02 19:00:00",
+                    "Duration": {
+                        "hours": 10,
+                        "minutes": 0,
+                        "seconds": 0
+                    },
+                    "Initial SOC": 0.1,
+                    "Final SOC": 0.9,
+                    "Location": "Charger 2"
+                }
+            ]
+        },
+        {
+            "Name": "Vehicle 2",
+            "Capacity of a battery": 16,
+            "Charging efficiency": 0.9,
+            "Discharging efficiency": 0.9,
+            "Maximum charging power": 4,
+            "Maximum discharging power": 4,
+            "Maximum SOC": 0.9,
+            "Minimum SOC": 0.1,
+            "Job plan": [
+                {
+                    "Type of task": "Charging",
+                    "Start": "2022-01-02 20:00:00",
+                    "Duration": {
+                        "hours": 7,
+                        "minutes": 0,
+                        "seconds": 0
+                    },
+                    "Initial SOC": 0.1,
+                    "Final SOC": 0.9,
+                    "Location": "Charger 1"
+                }
+            ]
+        }
+    ],
+    "Chargers": [
+        {
+            "Name": "Charger 1",
+            "Bus index in electrical network": 3,
+            "Maximum power": 5,
+            "Minimum power": 0
+        },
+        {
+            "Name": "Charger 2",
+            "Bus index in electrical network": 3,
+            "Maximum power": 7,
+            "Minimum power": 0
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "Group": "Reefer group 1",
+        "Number of containers": 100,
+        "Mass of reefer content": 20000,
+        "Heat capacity": 1760,
+        "Surface area": 74.97,
+        "Heat transition coefficient": 0.5,
+        "Initial temperature": 5,
+        "Upper bound": 5,
+        "Lower bound": 2,
+        "Bus index in electrical network": 3,
+        "Supplier max power": 150,
+        "Supplier min power": 0
+    },
+    {
+        "Group": "Reefer group 2",
+        "Number of containers": 130,
+        "Mass of reefer content": 17000,
+        "Heat capacity": 1347.7,
+        "Surface area": 74.97,
+        "Heat transition coefficient": 0.5,
+        "Initial temperature": -4,
+        "Upper bound": -4,
+        "Lower bound": -6,
+        "Bus index in electrical network": 4,
+        "Supplier max power": 150,
+        "Supplier min power": 0
+    }
+]
